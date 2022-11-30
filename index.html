@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!--  Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <article class="nft">
+        <picture class="nft__img-wrapper">
+          <img src="./images/image-equilibrium.jpg" alt="Image of NFT : Equilibrium" class="nft__img" data-icon="icon-view"/>
+          <div class="hover-bg">
+            <img src="./images/icon-view.svg" alt="Back Ground View Icon">
+          </div>
+        </picture>
+        <div class="nft__body">
+          <h1 class="nft__title">Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <div class="flex-box">
+            <p class="nft__price" data-icon="icon-ethereum">0.041 ETH</p>
+            <p class="nft__time-left" data-icon="icon-clock">3 days left</p>
+          </div>
+          <hr class="line-break" />
+          <div class="flex-box nft__creator-flex-box">
+            <img src="./images/image-avatar.png" alt="Avator image of Jules Wyvern" class="nft__creator-img">
+            <p class="nft__creator">Creation of <a href="#" class="nft__creator-link">Jules Wyvern</a></p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Kirimaru04</a>.</div>
+    </footer>
+  </body>
+</html>
